@@ -1,4 +1,4 @@
-package com.example.exp12skill.exception;
+package com.klu.exp12skill.exception;
 
 public class StudentNotFoundException extends RuntimeException {
 

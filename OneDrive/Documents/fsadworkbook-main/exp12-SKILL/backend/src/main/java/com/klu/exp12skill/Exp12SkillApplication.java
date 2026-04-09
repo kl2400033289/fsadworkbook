@@ -1,12 +1,12 @@
-package com.example.exp12skill;
+package com.klu.exp12skill;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
-import com.example.exp12skill.entity.Student;
-import com.example.exp12skill.repository.StudentRepository;
+import com.klu.exp12skill.entity.Student;
+import com.klu.exp12skill.repository.StudentRepository;
 
 @SpringBootApplication
 public class Exp12SkillApplication {

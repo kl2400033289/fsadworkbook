@@ -9,7 +9,7 @@
 		<relativePath />
 	</parent>
 
-	<groupId>com.example</groupId>
+	<groupId>com.klu</groupId>
 	<artifactId>exp12-skill</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>exp12-skill</name>
