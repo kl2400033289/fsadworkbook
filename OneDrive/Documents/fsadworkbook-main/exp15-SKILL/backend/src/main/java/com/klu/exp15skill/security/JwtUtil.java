@@ -1,8 +1,9 @@
 package com.klu.exp15skill.security;
 
 import java.nio.charset.StandardCharsets;
-import java.security.Key;
 import java.util.Date;
+
+import javax.crypto.SecretKey;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,7 +16,7 @@ import io.jsonwebtoken.security.Keys;
 @Component
 public class JwtUtil {
 
-	private final Key signingKey;
+	private final SecretKey signingKey;
 	private final long expirationMs;
 
 	public JwtUtil(@Value("${app.jwt.secret}") String secret,
