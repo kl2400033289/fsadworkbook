@@ -1,4 +1,4 @@
-package com.klu.exp12skill.entity;
+package com.klu.exp13skill.entity;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

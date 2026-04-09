@@ -1,4 +1,4 @@
-package com.klu.exp12skill.controller;
+package com.klu.exp13skill.controller;
 
 import java.util.List;
 
@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.klu.exp12skill.entity.Student;
-import com.klu.exp12skill.service.StudentService;
+import com.klu.exp13skill.entity.Student;
+import com.klu.exp13skill.service.StudentService;
 
 @RestController
 @RequestMapping("/students")

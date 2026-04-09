@@ -1,12 +1,12 @@
-package com.klu.exp12skill.service;
+package com.klu.exp13skill.service;
 
 import java.util.List;
 
 import org.springframework.stereotype.Service;
 
-import com.klu.exp12skill.entity.Student;
-import com.klu.exp12skill.exception.StudentNotFoundException;
-import com.klu.exp12skill.repository.StudentRepository;
+import com.klu.exp13skill.entity.Student;
+import com.klu.exp13skill.exception.StudentNotFoundException;
+import com.klu.exp13skill.repository.StudentRepository;
 
 @Service
 public class StudentServiceImpl implements StudentService {
